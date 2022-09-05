@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Jekaterina Korobtsova Portfolio</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./file.js" defer></script>
+    <script src="https://kit.fontawesome.com/717c53a772.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="./img/logo_portfolio-removebg-preview.png" alt="logo">
+            <ul class="list">
+                <li class="list"><a href="#home">Home</a></li>
+                <li class="list"><a href="#about">About</a></li>
+                <li class="list"><a href="./contact-page.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="greeting">
+            <div class="greeting-text">
+                <h3>Hello! I am </h3>
+                <h1 class="name">Jekaterina</h1>
+                <h1 class="surname">Korobtsova</h1>
+            </div>
+            <div class="photo">
+                <img class="greeting-img" src="./img/my-photo 2.jpeg" alt="photo of me">
+            </div>
+        </div>
+        <div class="about">
+            <h2>About Me</h2>
+            <p>My name is Jekaterina. I am a beginner Front-End developer located in Tallinn, Estonia. I have higher
+                education in economics and eight years of experience in accounting. Considering that I was always aiming
+                to work smart and do work that really matters, I realized that to keep growing it's time to change
+                something
+                in my life.</p>
+            <p>For me it was always interesting in software development, especially the <i>Front-End</i>.</p>
+            <p>During my studies and practice, I was convinced once again that Front-End Development for me is an
+                opportunity to create something new, useful and beautiful!</p>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="skills-logo">
+                <i class="fa fa-html5 fa-2xl"></i>
+                <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                <i class="fa-brands fa-js fa-2xl"></i>
+            </div>
+        </div>
+       <!-- <div class="contact">
+            <h2>Contact</h2>
+            <div class="contact-logo">
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
+                <i class="fa-brands fa-github fa-2xl"></i>
+                <i class="fa-solid fa-envelope fa-2xl"></i>
+            </div>
+        </div> -->
+    </main>
+    <p id="demo"></p>
+    <script>
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d;
+    </script>
+    <footer>Copyright 2022</footer>
+</body>
+
+</html>
